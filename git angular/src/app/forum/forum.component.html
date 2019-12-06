@@ -1,0 +1,122 @@
+<div class="content-container" style="margin-left: 100px;margin-right: 100px;">
+        <main class="content-area">
+             <div class="content-container" >
+        <div class="content-area" >
+          
+              <h1>Forum de discussions</h1>
+
+
+              
+
+  
+              <form clrStepper [formGroup]="form"  (ngSubmit)="submit()">
+                <clr-stepper-panel formGroupName="name">
+                  <clr-step-title >
+                      
+                       <clr-icon shape="chat-bubble"></clr-icon> 
+                    
+                   comment faire du logement ?</clr-step-title>
+                
+                  <clr-step-content *clrIfExpanded>
+                  
+
+                    <ul class="list">
+                            
+                            <li>
+                                    dans votre cas nous avons 3 solutions:
+                                <ul class="list">
+                                    <li>de foyer</li>
+                                    <li>résidences étudiantes</li>
+                                    <li>finanser votre maison</li>
+                                </ul>
+                            </li>
+                           
+                        </ul>
+                    <button clrStepButton="next" >Suivant</button>
+                  </clr-step-content>
+                </clr-stepper-panel>
+
+
+                
+
+
+
+              
+                <clr-stepper-panel formGroupName="contact">
+                  <clr-step-title>
+                        <clr-icon shape="chat-bubble"></clr-icon>   
+                    moyen de transport ?</clr-step-title>
+                  
+                  <clr-step-content *clrIfExpanded>
+                        <ul class="list">
+                            
+                                <li>
+                                        dans votre cas nous avons 3 solutions:
+                                    <ul class="list">
+                                        <li>de foyer</li>
+                                        <li>résidences étudiantes</li>
+                                        <li>finanser votre maison</li>
+                                    </ul>
+                                </li>
+                               
+                            </ul>
+                    <button clrStepButton="next">Suivant</button>
+                  </clr-step-content>
+                </clr-stepper-panel>
+              
+                <clr-stepper-panel formGroupName="password">
+                  <clr-step-title>
+                      
+                        <clr-icon shape="chat-bubble"></clr-icon>   
+                    tu es malade ?</clr-step-title>
+                 
+                  <clr-step-content *clrIfExpanded>
+                        <ul class="list">
+                            
+                                <li>
+                                        dans votre cas nous avons 3 solutions:
+                                    <ul class="list">
+                                        <li>de foyer</li>
+                                        <li>résidences étudiantes</li>
+                                        <li>finanser votre maison</li>
+                                    </ul>
+                                </li>
+                               
+                            </ul>
+                    <button clrStepButton="submit">Suivant</button>
+                  </clr-step-content>
+                </clr-stepper-panel>
+              </form>
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+        </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+        </main>
+      
+    </div>

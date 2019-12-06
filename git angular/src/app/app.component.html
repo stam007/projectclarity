@@ -1,0 +1,405 @@
+
+
+
+
+<clr-main-container>
+
+  <clr-header class="header-6" >
+      
+         <div class="branding">
+      <a [routerLink]="['/home']" class="nav-link">
+                   <img style="border-radius: 50%;" src="assets/gg.png" alt="Paris" width="30" height="30">
+
+          <span class="title">Etudiant Net</span>
+      </a>
+  </div>
+  
+
+<div class="header-nav pp">
+
+    
+   
+          
+   
+           <a [routerLink]="['/home']"class="nav-link nav-icon-text">
+            <clr-icon shape="home"></clr-icon>
+          <!--img style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwWF2a29YU6Lj38PMYljnQjXZIiwRJDlLQvM0uMgV-bkprTb26Q&s" alt="Paris" width="30" height="30"-->
+          
+        
+      <a  >
+          <span class="nav-text" >Accueil</span>
+        
+      </a>
+
+      </a>
+
+
+
+
+
+      <a [routerLink]="['/heberge']"class="nav-link nav-icon-text">
+        <clr-icon shape="building"></clr-icon>
+      <!--img style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwWF2a29YU6Lj38PMYljnQjXZIiwRJDlLQvM0uMgV-bkprTb26Q&s" alt="Paris" width="30" height="30"-->
+      
+    
+  <a  >
+      <span class="nav-text" >Hébergements</span>
+    
+  </a>
+
+  </a>
+    
+
+
+
+      <!--clr-dropdown [clrCloseMenuOnItemClick]="false">
+          <button clrDropdownTrigger aria-label="Dropdown demo button">
+             
+      <a  class="nav-link nav-icon-text">
+          <clr-icon shape="building"></clr-icon>
+        <span class="nav-text">Hébergement</span></a>
+              
+          </button>
+          <clr-dropdown-menu *clrIfOpen >
+              <div clrDropdownItem ><a [routerLink]="['/hebergementfoyer']" [queryParams]="{firstpara:'r',secondpara:0,thredpara:'C'}"
+                queryParamsHandling="merge">Les  Foyer  </a> </div>
+             
+              <div clrDropdownItem> <a [routerLink]="['/hebergementmaison']" [queryParams]="{firstpara:'r',secondpara:0,thredpara:'C'}"
+                queryParamsHandling="merge">résidence étudiant</a></div>
+
+
+                <div clrDropdownItem> <a [routerLink]="['/hebergementmaison']" [queryParams]="{firstpara:'r',secondpara:0,thredpara:'C'}"
+                  queryParamsHandling="merge">Financer Son Logement</a></div>
+         
+    
+    
+          </clr-dropdown-menu>
+        </clr-dropdown-->
+
+       
+            <a  aria-label="Dropdown demo button">
+               
+        <a  class="nav-link nav-icon-text">
+            <clr-icon shape="caravan"></clr-icon>
+          <span class="nav-text">Transport</span></a>
+                
+        </a>
+          
+
+
+
+          <a [routerLink]="['/forum']"class="nav-link nav-icon-text">
+           
+            <clr-icon shape="chat-bubble"></clr-icon>
+          <!--img style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwWF2a29YU6Lj38PMYljnQjXZIiwRJDlLQvM0uMgV-bkprTb26Q&s" alt="Paris" width="30" height="30"-->
+          
+        
+      <a  >
+          <span class="nav-text" >Forum</span>
+        
+      </a>
+
+      </a>
+
+          <!--clr-dropdown [clrCloseMenuOnItemClick]="false" >
+              <button clrDropdownTrigger aria-label="Dropdown demo button">
+                 
+          <a  class="nav-link nav-icon-text"><span class="nav-text">Santé</span></a>
+                  
+              </button>
+              <clr-dropdown-menu *clrIfOpen style="background-color:white;" >
+                  <div clrDropdownItem s>Foyer </div>
+                
+                  <div clrDropdownItem >louer</div>
+             
+        
+        
+              </clr-dropdown-menu>
+            </clr-dropdown-->
+
+
+            <!--clr-dropdown [clrCloseMenuOnItemClick]="false">
+                <button clrDropdownTrigger aria-label="Dropdown demo button">
+                   
+            <a  class="nav-link nav-icon-text">
+                <clr-icon shape="file"></clr-icon>
+              <span class="nav-text">Document</span></a>
+                    
+                </button>
+                <clr-dropdown-menu *clrIfOpen >
+                  
+                   
+                    
+                    <div  clrDropdownItem>Guides des Procédures</div >
+                    <div  clrDropdownItem>Formulaire en ligne</div >
+               
+          
+          
+                </clr-dropdown-menu>
+              </clr-dropdown-->
+  
+
+
+            
+
+     
+  </div>
+
+
+ <div class="header-actions pp">
+
+    <!--a href="..." class="nav-link nav-icon" aria-label="settings">
+        <clr-icon shape="envelope" class="is-solid"></clr-icon>
+
+      </a-->
+
+      <!--a href="..." class="nav-link nav-icon" aria-label="settings">
+          <clr-icon shape="chat-bubble"></clr-icon>
+  
+        </a-->
+       <a href="..." class="nav-link nav-icon" aria-label="notification">
+        <clr-icon shape="bell" class="has-badge is-solid"></clr-icon>
+
+      </a>
+      <!--a href="..." class="nav-link nav-icon" aria-label="settings">
+          <clr-icon shape="cog"></clr-icon>
+      </a-->
+
+     
+
+          <a href="javascript://" class="nav-link nav-icon-text">
+            <clr-icon shape="user"></clr-icon>
+          <!--img style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwWF2a29YU6Lj38PMYljnQjXZIiwRJDlLQvM0uMgV-bkprTb26Q&s" alt="Paris" width="30" height="30"-->
+          
+          <clr-dropdown [clrCloseMenuOnItemClick]="false">
+      <button clrDropdownTrigger aria-label="Dropdown demo button">
+          <span class="nav-text" style="color: rgb(255, 255, 255);">username</span>
+          <clr-icon shape="caret down" style="color: rgb(255, 255, 255)"></clr-icon>
+      </button>
+      <clr-dropdown-menu *clrIfOpen>
+          
+          <div clrDropdownItem>Déconnexion</div>
+          
+      </clr-dropdown-menu>
+  </clr-dropdown>
+      </a>
+      
+
+  
+  </div>
+  
+  </clr-header>
+
+  <header class="header-6">
+    
+      <form class="search" >
+          <label for="search_input">
+              <input id="search_input" type="text" placeholder="Search for keywords...">
+          </label>
+      </form>
+    
+  </header>
+
+ 
+  <nav class="subnav pp2" [clr-nav-level]="1">
+        
+  <clr-vertical-nav>
+
+
+  
+          <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">Acceuil</a>
+
+
+          
+
+           <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">Hébergements</a>
+            <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">Transport</a>
+             <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">Forum</a>
+
+
+
+       
+          <div class="nav-divider "></div>
+
+
+             <a clrVerticalNavLink routerLink="./charmander" routerLinkActive="active"> <clr-icon shape="bell" class="has-badge is-solid"></clr-icon><span class="nav-text">    settings</span></a>
+          <a clrVerticalNavLink routerLink="./jigglypuff" routerLinkActive="active"><img style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwWF2a29YU6Lj38PMYljnQjXZIiwRJDlLQvM0uMgV-bkprTb26Q&s" alt="Paris" width="30" height="30">
+          <span class="nav-text">    username</span></a>
+          <a clrVerticalNavLink routerLink="./pikachu" routerLinkActive="active"><clr-icon shape="cog"></clr-icon><span class="nav-text">    notification</span></a>
+         
+      </clr-vertical-nav>
+        
+  </nav>
+  <router-outlet ></router-outlet>
+</clr-main-container>
+
+
+<!--a>style="background-image: url(https://www.questionpro.com/userimages/site_media/edu-qp.png); background-repeat: no-repeat;" </a-->
+
+
+
+ 
+
+
+
+<div class="modal " *ngIf="login_modal "  >
+    <div class="modal-dialog " role="dialog" aria-hidden="true" >
+
+   
+
+        <div class="modal-content " >
+            
+
+                <div class="clr-row">
+                        <div class="clr-col-4">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhMVFRUXGBYYFxcYGRYYGhcXGhsYFxYYFRUYHiggHRslGx0VITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGy0lHyUtKy0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAQsAvQMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCCAH/xABHEAACAQIDBAYHBQYDBwUBAAABAgADEQQSIQUxQVEGBxNhcYEiMpGhscHwQlKCktEUI2JyouFTc9IVJDNDk7LCNERjw/EI/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAKBEBAQACAgICAQIHAQAAAAAAAAECEQMxEiEEQVETFCIyQmGB4fDB/9oADAMBAAIRAxEAPwDuMREBERAREQEREBERARMWKxCU0apUYKigszHQADUkzk3SLrsRSyYKgKltBUqEhT3hBrbzEi2RbHG5dOvRPnWj107SB9IYc67uzbdfdcOPCXjot1zYesQmMpnDsTYVAc9I8LsfWXXuIG8kSPOLXjydSieUcEAgggi4I1BB3EGepZmREQEREBERAREQEREBERAREQEREBPFWoFUsxCqoJJOgAGpJPK09yjdc2LensuoE0zsiMf4CbsPOwX8Ui3UTJu6ca6xOnVbaFYhWZMMpIpUwSMwBsKlTmxsDY6LpbiTTydLbvrWSOCwBqOFA1JUAePynnaeDKsQeH0L+Uy7rr1qekNUPsn7SqkaTMMKSd0lNl9GK1RwMhF+JG4f/km2Se0Y45W+lq6s+n1XB16dOrVY4ViFdWJIpg7nQH1bE3NuFza9p9JKwIuNQZ8o7b6M1MIoqHcTbThp9eyfRPVriDU2XhGY3IpBfJCUHnZRHHltTnw132s0RE1c5ERAREQEREBERAREQEREBERASndbmF7TZdbS5U0nHlUQH3Ey4yG6S4lcn7OVv2yVAeQUCxJPPUWlcrJPa/HjcspI5D1ZbDSrVZ6gvkVSPG5Av5SY6VdBKeIYGiy0muSxIJvfed+/64SQ6EbPfC1a9B/WyIwI3FbtYj3+yaPSygDmIp1qx3+vVC68AE9mgPfYaznve3dhPVleNkdBaNFszntDpbQAAeHGSW0OzojUqgHMgD3zF0coZEO8W0tmZgdL6Z9dJVdr3rVHZqK1qisAqMTltfU2OmkzurdOiS4zcTHSCguIwdWxBygOPwkE+68vvVlRybMwy2tZX9mdyPdKJsrCqVq0xRFN3R1GTRWuCBcXtLp1du+SpTL50p9mqm+4jMHUDgAAntJ3kzXhsl05vk4Wy5fhb4iJ0vPIiICIiAiIgIiICIiAiIgIiICRHSXCs9Islg63ynuNr68NQPZJefhF9DIym5pfjzuGUyn0rOzhdPVIKgpqNdOR4j9ZH47D213ecstTBrTBK38+ErW1GYPexYAE2GpuO7ie6c2WOpqu/i5JllbGqqgmxKqN2+x9nKV3aOHRahIZSdLprc35cLyw0HFZAy+jmtYOVUi/ArvB0OhF9DykBtmmtMFr06jhcy00qDM54AaaXPHdM7g68OWdb/wlMHR1pleYlk6B4IIuIYfbrOSBuFibAeVr98quxAbjTKTlut82Uk7r8bAHXunUKNMKAAAO4aa8Zrw4e9uT5fLZPH8/+PcRE6XmkREBERAREQEREBERAREQEREBERA1toeoZX61PMDzk3tViUIXfvF93gZWKOJzglbqwJDKd6sN4ImPL6rq4OvTWxdGmwu6KWHMXkPUpKuuULy0tJXHGpwW/eP0keqs1ka+/eRMK78eSyJrorggzoxHAt9e6XeUShtcYerSAGbMwS3JcpJPlaXlGBAI1BnTx60835Fty3XqIiaMCIiAiIgIiICIiAiIgIiICJVumPT7B7OstZy1Ui4pJYvbm1zZR479bXtKBT6zdp40scDhQlJTZnympkJ19JzYHTWwUkeYjQ7RNbFVtLKbHnynAD032lUdkqY2oji91RaIUj7yEJe3nfWWDoP0pxJxlLD1XNanVLDM3r0yEZx6X2lJW1jqCd/CJZvVX8LrbrFXWVLb+Eam/wC0U+A/eKPtKPtfzD3jwE3OkvSE4dbUqfavex1sqcLsRqfAe0SFwuLxbHtKj5kP2UUDJ5DVh5kza8Fzx9s8ebwu43MPtBXW4O+a+KN903RsSk4zUTkJ10N1/Lw8t3KQ1eo1N8lQWYewjmDynDnxZYdvQ4+XHP8AlZNnUc2Lpg8FqN7Mq/8AlLHhekaUMT+y1Qyhhem+9SdLrzVtRprvHO0jOj1BS5xLG2jU1J3WuC58yAPwyHxuHatVdzuNTOnNbAKvuAv4mdfDxzx9uPnztzrqWHxCuMyMGHdMso+FqvTY5SRx09vmO6T2E25wqLrzX9Jnv8lx/CaieKNZWGZTcT3JUIiICIiAiIgeXcAXJAHM6CY1xdM6B0J7mE5b1r9Jw7pgaRBBdRU13kG7W/lAJ8R3Si4pgtybWO72wtI+kpxHrAWvQq4jEYvaNYgvajh8JWFPLT3p2qNe1jYE5TqL3N7Cp4XGs7haVxY71ve/AKF3kzoXRfq2BIr7RtVI1p0CSVXvrfff+H1Rxudz2nUn25x0K6D4jatQ4iu7rRLEvWa5eq1/SFMte/Isbgd50ne9kbJpYSktHDItNBwGtzxZidSx5k3kkqgCwAAGgA0AA3ACfjS8mlLduYdb2xF7EY+moStRZS5GgqIxCkOOeo9Llccrc/Xa4o1EdanZ1BZ0blfcbkW5751vrRqj/ZeIY7mAUebLacJ6R09MP/lL8FlM57aYX07L1ZbSGIoNRqnO9GyljqXRrlHJ43FwTxKmWunhxTb0d3ynI+qvGmljMML+jXotSbvZB2iHx0cfinZ8QvpCbY52xjlhJkxtSscyaHiOB8e/vkD0zwL1aXaUVJqrb0Rv1sPrwEsNQ2ilrrJv8U1TG3CzKK/hcEFcgEkIuRb8gLG3jvm/Rw9p7FOzHxP6/rNiRasxdnrefjJM0KvvmVxaSsuzcQabd3Hw5yyAyp4jS/8AMB7pYdl186X5Er7NI0rk24iJCpERASJ6U7QahhatRPXtZTyZjlB8r38pLSo9Z1fJg/xD3KxgfPm1MQ9Kr29yWYm1zvpgW17ibnlqJH19pYjEsSqm26yg2Hix0m7htnWRMRXQuraHjkA0Fxx3fCTlFFUrbRbXUbt1twktE11PbLrjHK1QJkSnUa29gSAgOgte7c529pSerCmBTq4hhYuQii2pygs1ue8fllxp1Wa91yjhqCfMcPbL4yssr7e5q7SqZabHum0TI7bp/wB3c8heWkVVPrSompseoF3hqBH/AFUHzv5Ti3Sph2wUfZQD6907j0gxIbZ1QH7qE/nW04FtKtnqux3ltN/gLHdKck9tMOlo6O3Svs08e2pf1Aj4GfQDJdrzg3Rl0r7S2fTp+kEfOd9gKa5h8PeJ3rFPZTGHRn20KzXawmwNAJiw9PcTvMyOeHjLK1r1hqfrd9GF3Cfive/cbfP4GftPdblcRUx6M90hqBPFtJ+0zrI0nbFjeHe7H3CTHR3/AIbf5j/GRlVLlRzz/L+0k9hsP3gG4EfCReipSIiUQREQE57121cuA04kj2jL850Kc7661vhFHex9mUwmOfV6iUqChtcw9XhuLNfuGpkDstSKJY3ANwoPAFiygeAm9XpmvUK71QAcswvdgPD0R5mbNXCO5ShSQu5NlVd5PyHedAIXdV6usG6YKnUqalwSg09Gm2o/N63gRylktNfYWDalhqNGoRnSlTRrai6qFNjy0mVWsbGa4sMu2VtRNXGUc9J0+8rD2ibKcZ4MshxrpHtzs8PUoto37sEfy53PvQjynMtlYbtXWmtlLX11AFgSSQDbhL115YMJiKLqbdqKlxwuMmvnmPv5yndH9n4irVFHD0yz1VKKRuAJGZifsgC4JO6/O0pyXeTXHUic6GbNr02/2ijKtGlWFItqCwZTcrpqoGUn+bunbtj7ZXF0KVRLgNqQbX052lB6R7GqB8FsShfskpCvXf1c5LnPU8AQ9hzqKOAtd+jGBWjRVF3Le3mbyZFbU4ZjHCZFFxMd9e+CNSnvbx+vlMwG88z8hMFI+kw7/jae83pW7tfrzk0j3fhP1J5bh5z8TnIS2Kg48kNvEkfpNrYJ9OsO9T7jNbHtlQHnb3Xb5TPsIHtKvgvwlb0JuIiUCIiAlB64l/3MG17Z/wDtl+lK60iP2YA8cwHjYf3hMcg2XWH7txuJs3eW9H2ZtZaugm0Sm1UpBc3a06iMfuADtMxPL0LfilF6KFmpMpHohit/4l0t+UUz7Z17qy2LY1Me2+qoSmOSj1z5sLfgPOTO1rfS71NJicBtOMzvMDNNowrHSqc5lYXE0sTVKi+h8dPeJBbR6ZUqeamNKuUkK3EDflI0J1Gl+Mt41DknXVjxU2ilO/o06QGnBmJJ92WW/qP2Xak9dgdfRpk29TM2bd/Fecc2ptB8RXqYip6zm/kNFA8AAJ9NdDdnChhMPS5Uad+9iAxPtJlMfdtXy9SRr9IEttDAN99MZSPeDTSqPIGn/VNvDrlNpB4vFdtt+jRGowuEq1D3PVKIQfwGmfOWJ19KTPtVshrLMODF7tPOJeyTNhRZBCWjl/eE90yMNR5/KHHpGe1W7L+L5R9LMeLb1RzH6TLaw8LDzmDGb78iPr4TZZdBIlTZ0w7afRV4mw94/T3yf2XQyqWO9iD5AWHz9sqldneuwXIMlgt7k7hc5RbjfjLfs0N2S5jdram1uPKVymojbZiImaSIiAnKOt3aTXqBWW2HWkWU72as2VcuosbZ246Ja2tx1eUnrO2JRbAYusR6YXtS3EmmmUDwtew5m8D54wNGo7LQpE5qtQBRrrUf0Bu8beE+rMBg0o0qdGmLJTRUUdygAT5Z6J1nGIDg2dWVkN9VykKSLdz3/DPofo3typUwlOrUs7Pm10XcxUXA0vpHlJ21y4rZLPv/AL/f+U/iAeBmm7MOEwVNsEf8v+ofpNWtt4j/AJJP4h+kvOfjn2p+35L9Me2sS5pkUxZv4gbW8pxnpF29Cpia2KtnalbDlTcekSpIvrcEgm4nUNq7dquGColMDjcue87gOU5L0w6M42o7VM/bAm9txA4KFJtYa8Y/dcfUW/acsm7FLWqAJ9W9HabLhMMr+sKNEN/MEUH33nye9FgxRlIfdlIsbncLHyn1+mtpbjvpjm5H0NNd+kWNe2ZVbErVbgEzhaQvz9CmLfwnkZ1MjWetnbLpUO1NNbGtUarUPFnY8TyAsAOQ53Jy9nrLSaVt2jcedVXvm/SG4SK2k/71VkrSOVbmSNR/XPnMtEa+Rt7pptWOa9m17jM1GvqNDuPDwlV2PEbvrwmxhWus0cfUNrgE/V56wWIATXT2Sks20s3FRxm2alPE1bIulRt9ySL6HQjhadG6KbTFekTazKdRe413Edx10nM+kGBdsQ70wCCVIOZR9lb7zzvLV0DxXZFxVZEBUb3p7wd2jd5nN+rlc9W+nTnw4zj3J7X2JqrtKid1amfxr+s2VYEXBBHMTXbkssfsRElBKJ1z4hl2bVHZM9NhZ2V8ppNdTSZl+3TLizDfqNOV7nirTDAqwDKdCCAQRyIMD472LiQH09fMAORQq61ATe2t0G7nqNb/AEJ0UxXaYRCDfKWB4ak5j7yR5SI64ei2DVaeIp0Up4ipWVS6HLdTfMzUxo2pW7Wvrv3Sh7J6S18A9gBUpm+ZCSLneCG1sRrrbW5vwtXPHcbcWer7dlqWmtWpX42la2T0+wdewZzRc/ZqWXXue+U+2/dLCKoO4gicmWOu3bjlvpp1MKLEDjaa74RrH2yRdxP1akzuMbTOqrj+j1KtY1UGZbFWGhU7wQ2+3ukrR2hjKWqstRRzGvtXSSiuBcfVphUpy+vCaYcmeHVZ58eGfcbmA6WAj97TZDzHpL7tfdJuhj6bgFGBvyMq9LDpmuLD63TaGGU+kAL8xOjH5N+45s/h4/014xuPy49FAuAFJ7rkjUy6Cryt7f7SpYbDlKhrJcOVCEk39EEkCx7zN1dqVh9pb94/SaZc2OTOfFy/ssav4e2au0ahsAADx3/2kXT2++gNME881h8DMCdIBWd1FIg02Vb5gQ2YEixt3G48JTyxv2Xhzx7jOaIO9F936T8/Zl+4vsH6T0cQf8M+RHztPDYz/wCOp/R/qk+CvlHoUBwVfdPYTuH15TXGOH+HU93+qGxQ/wANz+X9ZW4JmUZ2Q90mtlNemByJHz+crBxZ/wAE+ZWT+yMLotQ6Ej1eV++Thhq7RyX0lIiJoxIiIHz517YrEf7Vo0sxKdivZKo1HaMUewAuWLIPYJFbdwTqXR1s6n0hfcbaj4z6DxXR6hUxVLGVEzVaSMlMncuY3LAfe3gHhczj/Wjhuzx9S+6oFceBUA/1BpaJjm9TCjKG333CZdm42th/+DVdO4G6/kN190xtU0AJ3C3s0njTfJ1Ey2dLVhesDEqPTppUtyuhPnqPdLRsHpMMXWahTR8yp2hIylQtgdTe/EDdvM5YW5azrXUnSQ4bEsAO07YKx49mKammPC5qSn6OFq/6+eMYNodLKFCr2VZwj2Bswbcb2uVBAk1hs7qHVGKuAwNjqp1B17vjOQdNv952riFT7VcUV8Vy0B7xPpWlRCqFA0UAAdw0ErPj4W1b93nJFNGHf7jDyPym7hqhvrLMwEwY5EFNmYDQE35aRfi4/VTj8y/1RoX0kXtt2RCVNuP19cZu0qoIBB0IBB7jqJrYtgykEX4Tnynp3cfZ0Hw/7VgaVZ3cu4JJuBxO4AbpNHZC0lVaai2bMxvqTY6kneZA9VNYJQqYU76FRl/Df0T5i0t20HJsoIHHdfXWaeMs24s885lZa0sh5fCfhQz9CN94fl/vGVvvD2f3k+TPTz2Zn4UM/bH7w9n95+FD98+QHzEj9RPi8NTPd7/0k/sqtmQC1stl8dBrILseZc+dvhJvZAUUwBvub63O/id8nDK2oznpvRETVkREQE4x13BVxNI5gGekAAbWAVm1/q479bXtp2eaGP2Lhq7Bq+Ho1WAyhqlNHIU6kAsDp3SYPlN9nte9r343Hw/WZFoW4AeA+c+qsLsjD0k7OlQopTuTkSmirc7zlAtcz3Q2dRQ3SlTU81RQfaBG07fJ218FXporNSqU1e+R2UqGta+S++1xqOYnS+oTAuuHxlUfaemi33ZqasxJ/wCoo8ps/wD9CUXepgFUFiwxCqoBJLE0dABruEvfQ7YQwWDpYYWuq3cjjUb0nP5ifK0tj3tGV9OW9Huq/G08bRxGIegypVFVyruSxBz3AKDXNYzs8/AJ+O00k0zt28sLmQnS7EEUuzG9rD2/Rk6uguZW8Qva1gOANz8padj0uG7OnTHC1vAzBcX1+vr5Scx1HMmXzEgVqWBDCxBsb6X5HWcfNjrLf5el8XPeGvuNHZBGHx+YGyVxlflnHqnzGnlOgvhQ2pJ9055mVrqx3Hfr5Ed8suF6X0ECU6zOGsBnCMyt33QG3PW2+U48p1T5PFbfLFvYyg6t6LLa3EG/HiD8pgPafwf1CMZtvDswy1kOnA9538pibadEb6ijzmunI9jtOSfmP+mesz8l9pPymMY6mRcOtvGbv7FU+6fdI8U7a3p/eXyU/G/ynlgeLsfA5feoBm8uzKh4AeJ/SZl2QeLjyEaRts7GUCioHDN8Tzm7MWFoZFCg3tf9ZlllCIiAiIgIiIFd2t0XpVcZSx1SpVNSipSkl1FNc2YM1styxBI320HKSaibWJ9Unlr5TWB5S+PStatQ2M8U1vP1lue6ZL2mirU2nWsthxmngMPlGY7zM1Rc767hM7Wkj8cyu7UGZmHOT9Q6GQFXVjCYjcNQBqW3ix04TzjcLlUjS26w0G+bWzj+9N+U2drUdGH1zlssZ4y6TjnfLW0DhKPpSXq4W6zTwi+lJ2jTuJGPRlfaHwiWzKZ0zB1M1NG5qp9oEodTDa98uuxT+4p/y29mkyz6T/duxETNJERAREQEREBERA09s1MtCqx4I3wM5J0d6Xtg2WlVDPSYLmtvpkgemo4gktdRyJ36HpnTavkwOIPNMn5yE/8AKcMrKS+VgbDXXlaxt3Tfim4yzuq7fgcdTrIHpOHXmp9xG8HuMzmcDpYh6TK1N2VrHVSVOnC4sbaywYLphj6alu1WqBuFVAdBv1XK3PUmW8UbdTbSfqjnKBhus9RYV8MwJI1pOrXv/C+W3tk9hOneBqf80oeTo4t4sAV98hKexPqmQjLqZsnbuFqCyYmg3DSrTuD3i9xMFSureqynwIPwhMR+GWz3m3tJtB5TAK1JblnRdeLKPiZsVHSrTV0YMpJFwQVJFwcpGh1v7DNM7/CjH+Zo4Wnc3k7hE3SBfa+HoHLVqoh32J18co1tPadNsGNEd6h/hRh73Cj3ynSU9Wpi/iJYdjraig8fiZr4TZqsFqMc1wCBuGuuvOSgExzsq8fsREokiIgIiICIiAiIgUrrVxRXDU6Yt+8qC/OygnTzy6905pi6ZWqbm9hx5WHw19k6H1p/+3H+b/8AXKHtMWruPAeRJHwm/H0yz7QlRFZxvG4fXlJWthR2QAO+w8foTW7MZt3Ejyymbn3fr7MtVUDtfD3YLcWGt7H64ia1PDi1ywHtOnsm9tI/vT4CYMeMqgjS5kWrSI/E4ZS2bMpvyDTSqsob0bFhuHo6HvJO/wCfvz7RHok8bHXju4HhIOguqnjK1dJDZTMbsjEE34bzqd36yXrpUKKhz5FtkUkkLwsgN7cd0jsCfS0A5bhJq9gbfW6X8WVyrSp7OOhO4m2lzx75P7OwYU6bx8JrX9EePzE38NpbwHwMpkvi7f0VxGfCUW/hy/lJX5SVkD0H/wDRUvBv+4yemLQiIgIiIH//2Q=="  alt="..." />
+
+                        </div>
+                        <div class="clr-col">
+                                <ul id="demoTabs" class="nav" role="tablist">
+                                        <li *ngIf="connect" role="presentation" class="nav-item  ">
+                                            <button id="tab1" class="btn btn-link nav-link active" aria-controls="panel1"
+                                                    aria-selected="false" (click)="switch_connexion()"  type="button">Se connecter </button>
+                                        </li>
+                        
+                                        <li *ngIf="!connect" role="presentation" class="nav-item  ">
+                                            <button id="tab1" class="btn btn-link nav-link false" aria-controls="panel1"
+                                                    aria-selected="false" (click)="switch_connexion()"  type="button">Se connecter</button>
+                                        </li>
+                        
+                        
+                                        <li  *ngIf="registre" role="presentation" class="nav-item">
+                                            <button id="tab2" class="btn btn-link nav-link active" aria-controls="panel2"
+                                                    aria-selected="false" (click)="switch_inscrire()" type="button">Créez votre compte</button>
+                                        </li>
+                        
+                                        <li *ngIf="!registre" role="presentation" class="nav-item">
+                                            <button id="tab2" class="btn btn-link nav-link " aria-controls="panel2"
+                                                    aria-selected="false" (click)="switch_inscrire()" type="button">Créez votre compte </button>
+                                        </li>
+                                     
+                                    </ul>
+                        
+                                   
+                                    <section  id="panel1" role="tabpanel" aria-labelledby="tab1">
+                                       
+                        
+                                        <section *ngIf="connect" >
+                                           
+                                            <form clrForm>
+                                                <clr-input-container>
+                                                  <label>email:</label>
+                                                  <input placeholder="Email" type="email" [(ngModel)]="login_data.email" clrInput name="n1" required />
+                                                  <clr-control-helper>Helper text</clr-control-helper>
+                                                  <clr-control-error>This field is required!</clr-control-error>
+                                                </clr-input-container>
+                        
+                                                <clr-password-container>
+                                                    <label>Mot de passe:</label>
+                                                    <input clrPassword placeholder="Password" [(ngModel)]="login_data.password" name="n2" />
+                                                    <clr-control-helper>Helper text</clr-control-helper>
+                                                    <clr-control-error>This field is required!</clr-control-error>
+                                                  </clr-password-container>
+                        
+                                                  <div style="margin-top: 50px;">
+                                                      <!--button class="btn btn-outline" (click)="switch_inscrire()" type="button">Inscription</button-->
+                                                      <button class="btn btn-primary" (click)="connexion()" type="button">Se connecter</button>
+                                                  </div>
+                                              </form>
+                        
+                                        </section>
+                        
+                                        <section *ngIf="registre" >
+                                            <form clrForm>
+                        
+                        
+                                                <clr-input-container>
+                                                    <label>nom:</label>
+                                                    <input placeholder="nom" type="text" [(ngModel)]="registre_data.nom" clrInput name="e0" required />
+                                                    <clr-control-helper>Helper text</clr-control-helper>
+                                                    <clr-control-error>This field is required!</clr-control-error>
+                                                  </clr-input-container>
+                        
+                                                  <clr-input-container>
+                                                      <label>prénom:</label>
+                                                      <input placeholder="prénom" type="text" clrInput name="e-1" [(ngModel)]="registre_data.prenom" required />
+                                                      <clr-control-helper>Helper text</clr-control-helper>
+                                                      <clr-control-error>This field is required!</clr-control-error>
+                                                    </clr-input-container>
+                        
+                        
+                        
+                        
+                                                    <clr-select-container>
+                                                        <label>Situation:</label>
+                                                        <select clrSelect name="options2" [(ngModel)]="registre_data.situation" >
+                                                          <option value="Collégien">Collégien</option>
+                                                          <option value="Lycéen/CFA">Lycéen/CFA</option>
+                                                          <option value="Lycéen/CFA">Etudiant/Réorienté</option>
+                                                          <option value="En recherche d'emploi /Jeune diplome">En recherche d'emploi /Jeune diplome</option>
+                                                        </select>
+                                                      </clr-select-container>
+
+
+                                                      <clr-select-container>
+                                                            <label>Domaine d'etude:</label>
+                                                            <select clrSelect name="options0" [(ngModel)]="registre_data.domaine_etude" >
+                                                              <option value="Sport">Sport</option>
+                                                              <option value="Math">Math</option>
+                                                              <option value="Informatique">Informatique</option>
+                                                             
+                                                            </select>
+                                                          </clr-select-container>
+                        
+
+                                                          
+
+                                                          <clr-input-container>
+                                                                <label>Ville:</label>
+                                                                <input placeholder="Ville" type="text"  [(ngModel)]="registre_data.ville"  clrInput name="e41" required />
+                                                                <clr-control-helper>Helper text</clr-control-helper>
+                                                                <clr-control-error>This field is required!</clr-control-error>
+                                                              </clr-input-container>
+
+                                                              <clr-input-container>
+                                                                    <label>Adresse:</label>
+                                                                    <input placeholder="adresse" type="text"  [(ngModel)]="registre_data.adresse"  clrInput name="e4t1" required />
+                                                                    <clr-control-helper>Helper text</clr-control-helper>
+                                                                    <clr-control-error>This field is required!</clr-control-error>
+                                                                  </clr-input-container>
+                        
+                        
+                                                <clr-input-container>
+                                                  <label>email:</label>
+                                                  <input placeholder="Email" type="email"  [(ngModel)]="registre_data.email"  clrInput name="e1" required />
+                                                  <clr-control-helper>Helper text</clr-control-helper>
+                                                  <clr-control-error>This field is required!</clr-control-error>
+                                                </clr-input-container>
+                        
+                                                <clr-password-container>
+                                                    <label>Mot de passe:</label>
+                                                    <input clrPassword placeholder="Password"  [(ngModel)]="registre_data.password"  name="e2" />
+                                                    <clr-control-helper>Helper text</clr-control-helper>
+                                                    <clr-control-error>This field is required!</clr-control-error>
+                                                  </clr-password-container>
+                        
+                                                  <div style="margin-top: 0px;">
+                                                      <!--button class="btn btn-outline" (click)="switch_connexion()" type="button">Connexion</button-->
+                                                      <button class="btn btn-primary" (click)="inscrire()" type="button">Créez votre compte </button>
+                                                  </div>
+                                              </form>
+                                        </section>
+                                    </section>
+                        </div>
+                    </div>
+
+
+          
+           
+          
+          
+
+        </div>
+    </div>
+</div>
+<div class="modal-backdrop" aria-hidden="true"   *ngIf="login_modal"></div>
